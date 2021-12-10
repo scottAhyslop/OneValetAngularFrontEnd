@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #222;
+    color: antiquewhite;
+    margin: 1rem auto;
+    
+}
+#homeContainer{
+    background-color: purple; 
+    border: 2px dotted antiquewhite; 
+    border-radius: 2rem;
+    text-align: center;
+    
+}
