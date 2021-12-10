@@ -9,6 +9,10 @@ import { DeviceComponent } from './components/device/device.component';
 import { SearchComponent } from './components/search/search.component';
 import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 
+import {HttpClientModule} from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +24,9 @@ import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

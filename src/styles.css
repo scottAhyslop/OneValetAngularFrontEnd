@@ -1,13 +1,14 @@
 body{
-    background-color: #222;
-    color: antiquewhite;
+    background-color: aliceblue;
+    color: #222;
     margin: 1rem auto;
     
 }
 #homeContainer{
-    background-color: purple; 
-    border: 2px dotted antiquewhite; 
+    background-color: aliceblue; 
+    border: 3px dotted blue; 
     border-radius: 2rem;
     text-align: center;
+    color: #222;
     
 }

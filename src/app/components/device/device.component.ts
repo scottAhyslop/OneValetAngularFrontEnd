@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Device } from 'src/app/interfaces/device';
 
 @Component({
   selector: 'app-device',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DeviceComponent implements OnInit {
 
+  public devices: Device[] = [];
+  
   constructor() { }
 
   ngOnInit(): void {
